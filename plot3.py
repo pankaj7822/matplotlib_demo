@@ -12,6 +12,7 @@ x2 = np.array([i+1 for i in range(len(y2))])
 plt.plot(x1, y1,label="Price GA (₹)",marker="o") # Plot the chart
 plt.plot(x2, y2,label="Price PGA (₹)",marker="o") # Plot the chart
 plt.legend()
+plt.title("36 Nodes System 3 vehicles")
 plt.xlabel("Trials")
 plt.ylabel("Price")
 plt.savefig("plot3.jpeg")
