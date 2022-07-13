@@ -9,8 +9,8 @@ x1 = np.array([i+1 for i in range(len(y1))])
 y2=np.array([20010.60,20860.90,20568.60,20280.50,20008.80,19666.80,19589.60,19285.60,19022.60,18922.70,18888.80,18813.40,18800.80,18755.80,18742.60])
 x2 = np.array([i+1 for i in range(len(y2))])
 
-plt.plot(x1, y1,label="Price GA (₹)") # Plot the chart
-plt.plot(x2, y2,label="Price PGA (₹)") # Plot the chart
+plt.plot(x1, y1,label="Price GA (₹)",marker="o") # Plot the chart
+plt.plot(x2, y2,label="Price PGA (₹)",marker="o") # Plot the chart
 plt.legend()
 plt.xlabel("Trials")
 plt.ylabel("Price")
